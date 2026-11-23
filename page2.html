@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Technical Issue Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>ICT SERVICE REQUEST</h1>
+
+    <form action="page3.html" method="get">
+
+        <h2>Technical Issue Details</h2>
+        <p>Please describe the ICT problem you are experiencing.</p>
+
+        <div class="form-group">
+            <label for="category">Service Category</label>
+
+            <select id="category" name="category" required>
+                <option value="">Select service category</option>
+                <option value="Computer Hardware">Computer Hardware</option>
+                <option value="Software">Software</option>
+                <option value="Network">Network</option>
+                <option value="Printer">Printer</option>
+                <option value="Email">Email</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="title">Problem Title</label>
+            <input type="text"
+            id="title"
+            name="title"
+            placeholder="Enter problem title"
+            required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Problem Description</label>
+
+            <textarea id="description"
+            name="description"
+            placeholder="Describe your technical problem"
+            rows="4"
+            required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="priority">Priority Level</label>
+
+            <select id="priority" name="priority" required>
+                <option value="">Select priority</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+                <option value="Urgent">Urgent</option>
+            </select>
+        </div>
+
+        <button type="submit">NEXT</button>
+
+    </form>
+
+</body>
+</html>
